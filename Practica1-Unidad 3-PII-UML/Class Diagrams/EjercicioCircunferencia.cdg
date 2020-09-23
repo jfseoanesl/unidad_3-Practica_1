@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="EjercicioCircunferencia">
+  <ClassDiagramComponents>
+    <Class name="Circunferencia" package="" visibility="public" xPosition="214.0" yPosition="71.0">
+      <Fields>
+        <Field name="x" type="double" visibility="private"/>
+        <Field name="y" type="double" visibility="private"/>
+        <Field name="r" type="double" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Circunferencia" returnType="void" visibility="public"/>
+        <Method name="Circunferencia" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+          <Argument type="double" name="y"/>
+          <Argument type="double" name="r"/>
+        </Method>
+        <Method name="getX" returnType="double" visibility="public"/>
+        <Method name="getY" returnType="double" visibility="public"/>
+        <Method name="getR" returnType="double" visibility="public"/>
+        <Method name="setX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="setY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="setR" returnType="void" visibility="public">
+          <Argument type="double" name="r"/>
+        </Method>
+        <Method name="calcularArea" returnType="double" visibility="public"/>
+        <Method name="calcularLongitud" returnType="double" visibility="public"/>
+        <Method name="compArea" returnType="Circunferencia" visibility="public">
+          <Argument type="Circunferencia" name="b"/>
+        </Method>
+        <Method name="compLongitud" returnType="Circunferencia" visibility="public">
+          <Argument type="Circunferencia" name="b"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TestCircunferencia" package="" visibility="public" xPosition="573.0" yPosition="195.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="arg"/>
+        </Method>
+        <Method name="compararCircunferencia" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Circunferencia" name="a"/>
+          <Argument type="Circunferencia" name="b"/>
+        </Method>
+        <Method name="imprimirCircunferencia" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Circunferencia" name="c"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation name="usa" source="TestCircunferencia" target="Circunferencia" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
