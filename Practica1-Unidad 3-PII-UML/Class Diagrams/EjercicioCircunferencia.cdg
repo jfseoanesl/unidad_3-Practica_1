@@ -2,7 +2,7 @@
 
 <ClassDiagram name="EjercicioCircunferencia">
   <ClassDiagramComponents>
-    <Class name="Circunferencia" package="" visibility="public" xPosition="214.0" yPosition="71.0">
+    <Class name="Circunferencia" package="" visibility="public" xPosition="43.0" yPosition="65.0">
       <Fields>
         <Field name="x" type="double" visibility="private"/>
         <Field name="y" type="double" visibility="private"/>
@@ -36,9 +36,12 @@
         <Method name="compLongitud" returnType="Circunferencia" visibility="public">
           <Argument type="Circunferencia" name="b"/>
         </Method>
+        <Method name="verificarSobrepuesta" returnType="boolean" visibility="public">
+          <Argument type="Circunferencia" name="b"/>
+        </Method>
       </Methods>
     </Class>
-    <Class name="TestCircunferencia" package="" visibility="public" xPosition="573.0" yPosition="195.0">
+    <Class name="TestCircunferencia" package="" visibility="public" xPosition="429.0" yPosition="188.0">
       <Fields/>
       <Constructors/>
       <Methods>
