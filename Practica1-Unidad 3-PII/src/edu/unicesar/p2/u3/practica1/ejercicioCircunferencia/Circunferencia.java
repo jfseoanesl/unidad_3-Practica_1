@@ -81,4 +81,16 @@ public class Circunferencia {
        }
     }
     
+    boolean verificarSobrepuesta(Circunferencia b){
+         boolean res=false;
+         
+        /*dos circunferencias se sobreponen si sus areas se cruzan
+          en un plano cartesiano */
+         
+        /*implementar codigo que verifique si la circunferencia
+         * se sobrepone con la circunferencia b*/
+        
+         return res;
+    }
+    
 }

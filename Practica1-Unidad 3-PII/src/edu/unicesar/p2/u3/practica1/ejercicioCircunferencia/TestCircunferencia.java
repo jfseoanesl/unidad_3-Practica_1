@@ -42,6 +42,9 @@ public class TestCircunferencia {
         else{
             System.out.println("La mayor es de B");
         }
+        
+        /* implementar las instrucciones para imprimir si 
+         * se sobreponen o no las dos circunferencia   */
     }
     
     
